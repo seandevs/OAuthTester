@@ -208,6 +208,7 @@ NSArray * CHQueryStringPairsFromKeyAndValue(NSString *key, id value) {
     const char *cData = [data cStringUsingEncoding:NSASCIIStringEncoding];
     unsigned char cHMAC[CC_SHA1_DIGEST_LENGTH];
     CCHmac(kCCHmacAlgSHA1, cKey, strlen(cKey), cData, strlen(cData), cHMAC);
+    //CCHmac(kCCHmacAlgSHA1, (__bridge const void *)(secret), strlen((__bridge const void *)(secret)), (__bridge const void *)(text), strlen( (__bridge const void *)(text)), cHMAC);
     NSData *HMAC = [[NSData alloc] initWithBytes:cHMAC length:sizeof(cHMAC)];
     NSString *signature = [HMAC base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
     NSLog(@"HMAC %@", [HMAC description]);
