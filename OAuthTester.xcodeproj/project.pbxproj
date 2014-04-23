@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9226A1471901747E004E3A2E /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 9226A1411901747E004E3A2E /* Base64Transcoder.c */; };
+		9226A1481901747E004E3A2E /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 9226A1431901747E004E3A2E /* hmac.c */; };
+		9226A1491901747E004E3A2E /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 9226A1451901747E004E3A2E /* sha1.c */; };
+		9226A14C190177DA004E3A2E /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9226A14B190177DA004E3A2E /* NSString+URLEncoding.m */; };
 		92ED3F5A190154200071D71D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92ED3F59190154200071D71D /* Foundation.framework */; };
 		92ED3F5C190154200071D71D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92ED3F5B190154200071D71D /* CoreGraphics.framework */; };
 		92ED3F5E190154200071D71D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92ED3F5D190154200071D71D /* UIKit.framework */; };
@@ -19,8 +23,6 @@
 		92ED3F79190154200071D71D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92ED3F78190154200071D71D /* XCTest.framework */; };
 		92ED3F7A190154200071D71D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92ED3F59190154200071D71D /* Foundation.framework */; };
 		92ED3F7B190154200071D71D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92ED3F5D190154200071D71D /* UIKit.framework */; };
-		92ED3F83190154200071D71D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92ED3F81190154200071D71D /* InfoPlist.strings */; };
-		92ED3F85190154200071D71D /* TestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ED3F84190154200071D71D /* TestAppTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +36,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		92ED3F56190154200071D71D /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9226A1411901747E004E3A2E /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		9226A1421901747E004E3A2E /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		9226A1431901747E004E3A2E /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		9226A1441901747E004E3A2E /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		9226A1451901747E004E3A2E /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		9226A1461901747E004E3A2E /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		9226A14A190177DA004E3A2E /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncoding.h"; path = "../../../simple-oauth1/Simple-OAuth1/Simple-OAuth1/NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		9226A14B190177DA004E3A2E /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncoding.m"; path = "../../../simple-oauth1/Simple-OAuth1/Simple-OAuth1/NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		92ED3F56190154200071D71D /* OAuthTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OAuthTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92ED3F59190154200071D71D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		92ED3F5B190154200071D71D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		92ED3F5D190154200071D71D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		92ED3F61190154200071D71D /* TestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
+		92ED3F61190154200071D71D /* OAuthTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OAuthTester-Info.plist"; sourceTree = "<group>"; };
 		92ED3F63190154200071D71D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92ED3F65190154200071D71D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		92ED3F67190154200071D71D /* TestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestApp-Prefix.pch"; sourceTree = "<group>"; };
+		92ED3F67190154200071D71D /* OAuthTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OAuthTester-Prefix.pch"; sourceTree = "<group>"; };
 		92ED3F68190154200071D71D /* testAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testAppDelegate.h; sourceTree = "<group>"; };
 		92ED3F69190154200071D71D /* testAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testAppDelegate.m; sourceTree = "<group>"; };
 		92ED3F6C190154200071D71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92ED3F6E190154200071D71D /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
 		92ED3F6F190154200071D71D /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		92ED3F71190154200071D71D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		92ED3F77190154200071D71D /* TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92ED3F77190154200071D71D /* OAuthTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAuthTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92ED3F78190154200071D71D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		92ED3F80190154200071D71D /* TestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestAppTests-Info.plist"; sourceTree = "<group>"; };
-		92ED3F82190154200071D71D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		92ED3F84190154200071D71D /* TestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9226A1401901747E004E3A2E /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				9226A1411901747E004E3A2E /* Base64Transcoder.c */,
+				9226A1421901747E004E3A2E /* Base64Transcoder.h */,
+				9226A1431901747E004E3A2E /* hmac.c */,
+				9226A1441901747E004E3A2E /* hmac.h */,
+				9226A1451901747E004E3A2E /* sha1.c */,
+				9226A1461901747E004E3A2E /* sha1.h */,
+			);
+			name = Crypto;
+			path = "../../../simple-oauth1/Simple-OAuth1/Simple-OAuth1/Crypto";
+			sourceTree = "<group>";
+		};
 		92ED3F4D190154200071D71D = {
 			isa = PBXGroup;
 			children = (
-				92ED3F5F190154200071D71D /* TestApp */,
-				92ED3F7E190154200071D71D /* TestAppTests */,
+				92ED3F5F190154200071D71D /* OAuthTester */,
 				92ED3F58190154200071D71D /* Frameworks */,
 				92ED3F57190154200071D71D /* Products */,
 			);
@@ -92,8 +112,8 @@
 		92ED3F57190154200071D71D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92ED3F56190154200071D71D /* TestApp.app */,
-				92ED3F77190154200071D71D /* TestAppTests.xctest */,
+				92ED3F56190154200071D71D /* OAuthTester.app */,
+				92ED3F77190154200071D71D /* OAuthTesterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,45 +129,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		92ED3F5F190154200071D71D /* TestApp */ = {
+		92ED3F5F190154200071D71D /* OAuthTester */ = {
 			isa = PBXGroup;
 			children = (
+				9226A14A190177DA004E3A2E /* NSString+URLEncoding.h */,
+				9226A14B190177DA004E3A2E /* NSString+URLEncoding.m */,
 				92ED3F68190154200071D71D /* testAppDelegate.h */,
 				92ED3F69190154200071D71D /* testAppDelegate.m */,
 				92ED3F6B190154200071D71D /* Main.storyboard */,
+				9226A1401901747E004E3A2E /* Crypto */,
 				92ED3F6E190154200071D71D /* testViewController.h */,
 				92ED3F6F190154200071D71D /* testViewController.m */,
 				92ED3F71190154200071D71D /* Images.xcassets */,
 				92ED3F60190154200071D71D /* Supporting Files */,
 			);
+			name = OAuthTester;
 			path = TestApp;
 			sourceTree = "<group>";
 		};
 		92ED3F60190154200071D71D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				92ED3F61190154200071D71D /* TestApp-Info.plist */,
+				92ED3F61190154200071D71D /* OAuthTester-Info.plist */,
 				92ED3F62190154200071D71D /* InfoPlist.strings */,
 				92ED3F65190154200071D71D /* main.m */,
-				92ED3F67190154200071D71D /* TestApp-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		92ED3F7E190154200071D71D /* TestAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				92ED3F84190154200071D71D /* TestAppTests.m */,
-				92ED3F7F190154200071D71D /* Supporting Files */,
-			);
-			path = TestAppTests;
-			sourceTree = "<group>";
-		};
-		92ED3F7F190154200071D71D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				92ED3F80190154200071D71D /* TestAppTests-Info.plist */,
-				92ED3F81190154200071D71D /* InfoPlist.strings */,
+				92ED3F67190154200071D71D /* OAuthTester-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92ED3F55190154200071D71D /* TestApp */ = {
+		92ED3F55190154200071D71D /* OAuthTester */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92ED3F88190154200071D71D /* Build configuration list for PBXNativeTarget "TestApp" */;
+			buildConfigurationList = 92ED3F88190154200071D71D /* Build configuration list for PBXNativeTarget "OAuthTester" */;
 			buildPhases = (
 				92ED3F52190154200071D71D /* Sources */,
 				92ED3F53190154200071D71D /* Frameworks */,
@@ -167,14 +173,14 @@
 			);
 			dependencies = (
 			);
-			name = TestApp;
+			name = OAuthTester;
 			productName = TestApp;
-			productReference = 92ED3F56190154200071D71D /* TestApp.app */;
+			productReference = 92ED3F56190154200071D71D /* OAuthTester.app */;
 			productType = "com.apple.product-type.application";
 		};
-		92ED3F76190154200071D71D /* TestAppTests */ = {
+		92ED3F76190154200071D71D /* OAuthTesterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92ED3F8B190154200071D71D /* Build configuration list for PBXNativeTarget "TestAppTests" */;
+			buildConfigurationList = 92ED3F8B190154200071D71D /* Build configuration list for PBXNativeTarget "OAuthTesterTests" */;
 			buildPhases = (
 				92ED3F73190154200071D71D /* Sources */,
 				92ED3F74190154200071D71D /* Frameworks */,
@@ -185,9 +191,9 @@
 			dependencies = (
 				92ED3F7D190154200071D71D /* PBXTargetDependency */,
 			);
-			name = TestAppTests;
+			name = OAuthTesterTests;
 			productName = TestAppTests;
-			productReference = 92ED3F77190154200071D71D /* TestAppTests.xctest */;
+			productReference = 92ED3F77190154200071D71D /* OAuthTesterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 92ED3F51190154200071D71D /* Build configuration list for PBXProject "TestApp" */;
+			buildConfigurationList = 92ED3F51190154200071D71D /* Build configuration list for PBXProject "OAuthTester" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92ED3F55190154200071D71D /* TestApp */,
-				92ED3F76190154200071D71D /* TestAppTests */,
+				92ED3F55190154200071D71D /* OAuthTester */,
+				92ED3F76190154200071D71D /* OAuthTesterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92ED3F83190154200071D71D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +255,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9226A1491901747E004E3A2E /* sha1.c in Sources */,
+				9226A1481901747E004E3A2E /* hmac.c in Sources */,
 				92ED3F70190154200071D71D /* testViewController.m in Sources */,
+				9226A1471901747E004E3A2E /* Base64Transcoder.c in Sources */,
 				92ED3F6A190154200071D71D /* testAppDelegate.m in Sources */,
+				9226A14C190177DA004E3A2E /* NSString+URLEncoding.m in Sources */,
 				92ED3F66190154200071D71D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92ED3F85190154200071D71D /* TestAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +277,7 @@
 /* Begin PBXTargetDependency section */
 		92ED3F7D190154200071D71D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 92ED3F55190154200071D71D /* TestApp */;
+			target = 92ED3F55190154200071D71D /* OAuthTester */;
 			targetProxy = 92ED3F7C190154200071D71D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -289,14 +297,6 @@
 				92ED3F6C190154200071D71D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		92ED3F81190154200071D71D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92ED3F82190154200071D71D /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -378,9 +378,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestApp/TestApp-Prefix.pch";
-				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TestApp/OAuthTester-Prefix.pch";
+				INFOPLIST_FILE = "TestApp/OAuthTester-Info.plist";
+				PRODUCT_NAME = OAuthTester;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,9 +391,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestApp/TestApp-Prefix.pch";
-				INFOPLIST_FILE = "TestApp/TestApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TestApp/OAuthTester-Prefix.pch";
+				INFOPLIST_FILE = "TestApp/OAuthTester-Info.plist";
+				PRODUCT_NAME = OAuthTester;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,8 +413,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TestAppTests/TestAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TestAppTests/OAuthTesterTests-Info.plist";
+				PRODUCT_NAME = OAuthTesterTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,8 +431,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestApp/TestApp-Prefix.pch";
-				INFOPLIST_FILE = "TestAppTests/TestAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TestAppTests/OAuthTesterTests-Info.plist";
+				PRODUCT_NAME = OAuthTesterTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -441,7 +441,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92ED3F51190154200071D71D /* Build configuration list for PBXProject "TestApp" */ = {
+		92ED3F51190154200071D71D /* Build configuration list for PBXProject "OAuthTester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92ED3F86190154200071D71D /* Debug */,
@@ -450,21 +450,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92ED3F88190154200071D71D /* Build configuration list for PBXNativeTarget "TestApp" */ = {
+		92ED3F88190154200071D71D /* Build configuration list for PBXNativeTarget "OAuthTester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92ED3F89190154200071D71D /* Debug */,
 				92ED3F8A190154200071D71D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		92ED3F8B190154200071D71D /* Build configuration list for PBXNativeTarget "TestAppTests" */ = {
+		92ED3F8B190154200071D71D /* Build configuration list for PBXNativeTarget "OAuthTesterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92ED3F8C190154200071D71D /* Debug */,
 				92ED3F8D190154200071D71D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

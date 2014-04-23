@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "92ED3F55190154200071D71D"
-               BuildableName = "TestApp.app"
-               BlueprintName = "TestApp"
-               ReferencedContainer = "container:TestApp.xcodeproj">
+               BuildableName = "OAuthTester.app"
+               BlueprintName = "OAuthTester"
+               ReferencedContainer = "container:OAuthTester.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "92ED3F76190154200071D71D"
-               BuildableName = "TestAppTests.xctest"
-               BlueprintName = "TestAppTests"
-               ReferencedContainer = "container:TestApp.xcodeproj">
+               BuildableName = "OAuthTesterTests.xctest"
+               BlueprintName = "OAuthTesterTests"
+               ReferencedContainer = "container:OAuthTester.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "92ED3F55190154200071D71D"
-            BuildableName = "TestApp.app"
-            BlueprintName = "TestApp"
-            ReferencedContainer = "container:TestApp.xcodeproj">
+            BuildableName = "OAuthTester.app"
+            BlueprintName = "OAuthTester"
+            ReferencedContainer = "container:OAuthTester.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "92ED3F55190154200071D71D"
-            BuildableName = "TestApp.app"
-            BlueprintName = "TestApp"
-            ReferencedContainer = "container:TestApp.xcodeproj">
+            BuildableName = "OAuthTester.app"
+            BlueprintName = "OAuthTester"
+            ReferencedContainer = "container:OAuthTester.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "92ED3F55190154200071D71D"
-            BuildableName = "TestApp.app"
-            BlueprintName = "TestApp"
-            ReferencedContainer = "container:TestApp.xcodeproj">
+            BuildableName = "OAuthTester.app"
+            BlueprintName = "OAuthTester"
+            ReferencedContainer = "container:OAuthTester.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
